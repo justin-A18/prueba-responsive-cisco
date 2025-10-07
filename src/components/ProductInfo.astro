@@ -1,0 +1,92 @@
+---
+import { ShoppingCartIcon, DownloadIcon, FileIcon } from '@lucide/astro';
+---
+
+<div class='flex flex-col gap-4'>
+	<h2 class='font-medium text-xl underline'>Descripción</h2>
+	<p>
+		Los Cables AMP NetConnect categoría 6 exceden los requerimientos
+		TIA/EIA-568-B.2-1 e ISO / IEC 11801 Clase E. Además cumplen con todos los
+		requisitos de rendimiento para aplicaciones actuales y propuestos, tales
+		como Gigabit Ethernet (1000BASE-TX), 10/100BASE-TX, Token Ring, ATM 155
+		Mbps, 100 Mbps TP-PMD, Vídeo ISDN, analógico y digital y analógica y digital
+		de voz (VoIP).
+	</p>
+
+	<p>
+		AMP NetConnect categoría 6 cables UTP están disponibles en (CMR) colores
+		estándar, incluyendo blanco, gris y azul. El embalaje es en un reel-in-box,
+		con el estándar 1000ft libres de empalmes longitudinales.
+	</p>
+
+	<p>
+		Rendimiento del cable debe ser verificado independientemente y caracterizado
+		a 600 MHz. Cable se suministra en un carrete-in-box. Independiente
+		verificación del cumplimiento de inflamabilidad será NEC artículo 800 y NFPA
+		70, CMR (ANSI / UL 1666, IEC 332-1). Cable horizontal debe ser AMP
+		NETCONNECT número X-1427200-X.
+	</p>
+
+	<div class='flex items-center justify-between'>
+		<p class='text-gray-700 text-base font-medium'>
+			Precio por rollo:
+			<span class='font-bold text-xl text-green-600'>$187.00</span>
+		</p>
+
+		<a
+			href='#download'
+			class='px-4 py-2 bg-orange-400 text-white rounded hover:bg-orange-300 transition-colors text-center w-fit inline-flex items-center gap-2 font-medium'>
+			<ShoppingCartIcon /> Comprar
+		</a>
+	</div>
+
+	<table class='min-w-full border border-gray-300 text-sm'>
+		<thead class='bg-gray-100'>
+			<tr>
+				<th class='px-4 py-2 text-left border-b border-gray-300'>
+					Especificación
+				</th>
+				<th class='px-4 py-2 text-right border-b border-gray-300'> Valor </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='hover:bg-gray-50'>
+				<td class='px-4 py-2 border-b border-gray-200'>Voltaje</td>
+				<td class='px-4 py-2 text-right border-b border-gray-200'>
+					300 VAC o VDC
+				</td>
+			</tr>
+			<tr class='hover:bg-gray-50'>
+				<td class='px-4 py-2 border-b border-gray-200'>
+					Velocidad Nominal de Propagación
+				</td>
+				<td class='px-4 py-2 text-right border-b border-gray-200'> 70% </td>
+			</tr>
+			<tr class='hover:bg-gray-50'>
+				<td class='px-4 py-2 border-b border-gray-200'>
+					Temperatura de Operación
+				</td>
+				<td class='px-4 py-2 text-right border-b border-gray-200'>
+					-60°C a 20°C
+				</td>
+			</tr>
+			<tr class='hover:bg-gray-50'>
+				<td class='px-4 py-2'>Temperatura de Almacenamiento</td>
+				<td class='px-4 py-2 text-right'>-80°C a 20°C</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div class='flex flex-col gap-2'>
+		<a
+			href='#download'
+			class='px-4 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors font-medium inline-flex items-center justify-center gap-2'>
+			<DownloadIcon /> Descargar PDF
+		</a>
+		<a
+			href='#datos-tecnicos'
+			class='px-4 py-3 border border-blue-600 text-blue-600 rounded hover:bg-blue-50 transition-colors font-medium inline-flex items-center justify-center gap-2'>
+			<FileIcon /> Ver Datos Técnicos
+		</a>
+	</div>
+</div>

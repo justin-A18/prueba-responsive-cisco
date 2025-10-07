@@ -1,0 +1,49 @@
+---
+import { SearchIcon, ChevronRightIcon } from '@lucide/astro';
+
+const TABS_NAVIGATION = [
+	{
+		to: 'https://www.ds3comunicaciones.com/AMP/index.html',
+		label: 'AMP',
+	},
+	{
+		to: 'https://www.ds3comunicaciones.com/AMP/index.html#cablecat6',
+		label: 'Cable de red cat 6',
+	},
+	{
+		to: '/',
+		label: '6-1427200-4',
+	},
+];
+---
+
+<header class='space-y-4'>
+	<div class='mb-4 w-full flex items-center border px-2 rounded-lg py-3'>
+		<input
+			type='text'
+			maxlength='50'
+			class='w-full flex-1 border-none focus:outline-none'
+			placeholder='Buscar producto...'
+		/>
+		<button class='px-2'>
+			<SearchIcon class='size-4' />
+		</button>
+	</div>
+
+	<div class='flex items-center gap-2'>
+		{
+			TABS_NAVIGATION.map((item) => (
+				<div class='inline-flex items-center gap-2 text-blue-950 font-medium'>
+					<a href={item.to}>{item.label}</a>
+					{TABS_NAVIGATION[TABS_NAVIGATION.length - 1] !== item && (
+						<ChevronRightIcon class='size-4' />
+					)}
+				</div>
+			))
+		}
+	</div>
+
+	<h1 class='font-medium text-2xl sm:text-3xl'>
+		Cable UTP AMP Categoria 6 Chaqueta CMR 23AWG 6-1427200-4
+	</h1>
+</header>
