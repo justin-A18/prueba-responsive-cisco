@@ -1,46 +1,49 @@
-# Astro Starter Kit: Basics
+# Prueba Responsive Cisco
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+## 📌 Descripción
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este proyecto es una demostración práctica de diseño web responsivo, desarrollado con **Astro** y **CSS**, con el objetivo de mostrar mi capacidad para adaptar interfaces a diferentes dispositivos y tamaños de pantalla, siguiendo las mejores prácticas de la industria.
 
-## 🚀 Project Structure
+## 🛠️ Tecnologías Utilizadas
 
-Inside of your Astro project, you'll see the following folders and files:
+* **Astro**: Framework moderno para la construcción de sitios web rápidos y optimizados.
+* **Tailwind**: Framework de utilidades para CSS que permite crear un diseño limpio y totalmente adaptable, incluyendo el uso de media queries para asegurar la correcta visualización en todos los dispositivos.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## 📐 Diseño Responsivo
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+El diseño se adapta a diversos tamaños de pantalla mediante el uso de media queries, asegurando una experiencia de usuario óptima en dispositivos móviles, tabletas y escritorios.
 
-## 🧞 Commands
+## 🚀 Instalación
 
-All commands are run from the root of the project, from a terminal:
+1. Clona el repositorio:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+   ```bash
+   git clone https://github.com/justin-A18/prueba-responsive-cisco.git
+   ```
 
-## 👀 Want to learn more?
+2. Navega al directorio del proyecto:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+   ```bash
+   cd prueba-responsive-cisco
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+
+   ```bash
+   pnpm dev
+   ```
+
+5. Abre tu navegador y visita `http://localhost:3000` para ver el proyecto en acción.
+
+## 🧪 Pruebas
+
+Para verificar la adaptabilidad del diseño:
+
+* Utiliza las herramientas de desarrollo de tu navegador (por ejemplo, Chrome DevTools) para simular diferentes dispositivos.
+* Observa cómo el diseño se ajusta fluidamente a distintos tamaños de pantalla.
