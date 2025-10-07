@@ -2,7 +2,7 @@
 
 ## 📌 Descripción
 
-Este proyecto es una demostración práctica de diseño web responsivo, desarrollado con **Astro** y **CSS**, con el objetivo de mostrar mi capacidad para adaptar interfaces a diferentes dispositivos y tamaños de pantalla, siguiendo las mejores prácticas de la industria.
+Este proyecto es una demostración práctica de diseño web responsivo, desarrollado con **Astro** y **Tailwind**, con el objetivo de mostrar mi capacidad para adaptar interfaces a diferentes dispositivos y tamaños de pantalla, siguiendo las mejores prácticas de la industria.
 
 ## 🛠️ Tecnologías Utilizadas
 
