@@ -39,7 +39,7 @@ El diseño se adapta a diversos tamaños de pantalla mediante el uso de media qu
    pnpm dev
    ```
 
-5. Abre tu navegador y visita `http://localhost:3000` para ver el proyecto en acción.
+5. Abre tu navegador y visita `http://localhost:4321` para ver el proyecto en acción.
 
 ## 🧪 Pruebas
 
